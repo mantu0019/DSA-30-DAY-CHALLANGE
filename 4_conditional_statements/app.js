@@ -135,7 +135,6 @@ const prompt = require("prompt-sync")();
 //    console.log(`payable amount is ${(100*4.2)+(100*6)+(200*8)+((unit-400)*13)}`);
 // }
 
-
 // let  unit = Number(prompt("enter your bill unit here  "));
 //  let amount = 0;
 
@@ -152,8 +151,36 @@ const prompt = require("prompt-sync")();
 //    amount = amount +(unit-100)*6;
 //    unit = 100
 //  }
- 
 
 //   amount = amount +(unit*4.2)
 //   console.log("🚀 ~ amount:", amount)
 
+let month = Number(prompt("enter month number  "));
+let year = Number(prompt("enter year  "));
+let days = 0;
+
+if (month == 2) {
+  if (year % 4 == 0 || (year % 400 == 0 && year % 100 != 0)) {
+    days = 29;
+  } else {
+    days = 28;
+  }
+} else if (
+  month == 1 ||
+  month == 3 ||
+  month == 5 ||
+  month == 7 ||
+  month == 8 ||
+  month == 10 ||
+  month == 12
+) {
+
+  days = 31
+
+}else{
+   days = 30;
+}
+
+
+
+console.log(days)
