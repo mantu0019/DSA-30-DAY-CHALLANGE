@@ -85,30 +85,35 @@
 //     console.log("only one char is acceptable ")
 // }
 
-let char = "mantu";
+// let char = "mantu";
 
-let vowel = 0;
-let consonants = 0;
+// let vowel = 0;
+// let consonants = 0;
 
-for (let i = 0; i < char.length; i++) {
-  let ans = char.charAt(i);
+// for (let i = 0; i < char.length; i++) {
+//   let ans = char.charAt(i);
 
-  switch (ans) {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":vowel++
-    break
+//   switch (ans) {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":vowel++
+//     break
   
-    default:consonants++;
+//     default:consonants++;
       
-  }
-}
+//   }
+// }
 
 
-console.log("vowel is ",vowel );
+// console.log("vowel is ",vowel );
 
-console.log("consonants is ", consonants);
-let a = "mantu"
-console.log(a.length)
+// console.log("consonants is ", consonants);
+// let a = "mantu"
+// console.log(a.length)
+ 
+
+  const cha = "A"
+const char = cha.toLowerCase();
+console.log(char)
