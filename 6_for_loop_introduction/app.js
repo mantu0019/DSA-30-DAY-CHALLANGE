@@ -3,7 +3,7 @@
 
 // let n = Number(  prompt("enter your number "))
 
-// let b = 0;
+// let b = 0;   
 // while (  b <= n) {
 
 //   console.log("hello");
