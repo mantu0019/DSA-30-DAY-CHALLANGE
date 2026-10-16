@@ -41,7 +41,7 @@
 
 // console.log(123/10 )
 
-for (let i = 1; i <= 5; i++) {
-  if (i === 4) continue;
-  console.log(i);
-}
+// for (let i = 1; i <= 5; i++) {
+//   if (i === 4) continue;
+//   console.log(i);
+// }
